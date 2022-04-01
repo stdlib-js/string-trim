@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/string-trim",
+  "version": "0.0.0",
+  "description": "Trim whitespace characters from the beginning and end of a string.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/string-trim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdstring",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "string",
+    "str",
+    "whitespace",
+    "remove",
+    "trim",
+    "trimming",
+    "replace"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
