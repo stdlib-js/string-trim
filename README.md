@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import trim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-trim@esm/index.mjs';
+import trim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-trim@v0.1.1-esm/index.mjs';
 ```
 
 #### trim( str )
@@ -96,7 +96,7 @@ var out = trim( ' \t\t\n  Beep \r\n\t  ' );
 <body>
 <script type="module">
 
-import trim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-trim@esm/index.mjs';
+import trim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-trim@v0.1.1-esm/index.mjs';
 
 var out = trim( '   Whitespace   ' );
 // returns 'Whitespace'
