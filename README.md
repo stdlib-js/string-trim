@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import trim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-trim@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-trim/tags). For example,
+
+```javascript
 import trim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-trim@v0.2.3-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ var out = trim( ' \t\t\n  Beep \r\n\t  ' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import trim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-trim@v0.2.3-deno/mod.js';
+import trim from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-trim@deno/mod.js';
 
 var out = trim( '   Whitespace   ' );
 // returns 'Whitespace'
